@@ -186,23 +186,27 @@ footer a:hover {
     flex-direction: row;
     border-top: 0.031rem solid rgb(60, 64, 67);
     padding: 1rem 2rem;
+    justify-content: space-between;
 }
 
 .fut2left {
     display: flex;
-    margin-right: 12rem;
+    justify-content: flex-start;
     gap: 1.68rem;
+    width: 30%;
 }
 
 .fut2cnt {
-    margin-right: auto;
-    align-items: center;
+    justify-self: center;
 }
 
 .fut2right {
     display: flex;
     float: right;
     gap: 1.68rem;
+    width: 30%;
+    justify-content: flex-end;
+
 }
 
 .fut2cnt img {
