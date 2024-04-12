@@ -6,7 +6,6 @@
 
 body{
     background-color: #202124;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -21,7 +20,7 @@ header{
 
 
 .app-cont {
-    border-radius: 100px;
+    border-radius: 6.25rem;
     padding: 0.5rem 0.5rem;    
     justify-content: center;
     display: flex;
@@ -68,12 +67,10 @@ background-color: #2F3034;
 
 
 main{
-        margin: 5.5rem auto 14rem; 
-        display: flex;
-        height:max-content;
-        flex-direction: column;
-        align-items: center;
-        gap: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8rem;
 }
 
 .search-bar {
@@ -99,7 +96,7 @@ input {
     background-color: rgb(32, 33, 36);
     width: 29rem;
     height: 2.2rem;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: white;
     border-width: initial;
     border-style: none;
