@@ -175,7 +175,7 @@ footer a:hover{
     display: flex;
     flex-direction: row;
     border-top: 0.031rem solid rgb(60, 64, 67);
-    padding: 1rem 2rem;
+    padding: 1rem 2.25rem;
     justify-content: space-between;
 }
 
