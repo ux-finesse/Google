@@ -5,13 +5,12 @@
 }
 
 body{
-    background-color: #202124;
+    background-color: rgb(32, 33, 36);
     display: flex;
     flex-direction: column;
     height: 100vh;
     justify-content: space-between;
 }
-
 
 header{
     padding: .8rem .8rem;    
@@ -19,7 +18,7 @@ header{
 }
 
 
-.app-cont {
+.app-cont{
     border-radius: 6.25rem;
     padding: 0.5rem 0.5rem;    
     justify-content: center;
@@ -28,12 +27,11 @@ header{
 
 
 .app-cont:hover{
-background-color: #2F3034;
-
+background-color: rgb(47, 48, 52);
 }
 
 .material-symbols-outlined{
-    color: #E2E2E3;
+    color: rgb(226, 226, 227);
 }
 
 .right-nav{
@@ -46,14 +44,14 @@ background-color: #2F3034;
 
 .right-nav img{
     border-radius: 100%;
-    border: 0.313rem solid #2f303400;
+    border: 0.313rem solid rgba(47, 48, 52, 0);
 }
 
 .right-nav a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.875rem;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .right-nav a:hover{
@@ -62,7 +60,7 @@ background-color: #2F3034;
 
 .right-nav img:hover{
     border-radius: 100%;
-    border: 0.313rem solid #2F3034;
+    border: 0.313rem solid rgb(47, 48, 52);
 }
 
 
@@ -74,112 +72,106 @@ main{
     gap: 1.8rem;
 }
 
-.search-bar {
+.search-bar{
     width: 36.5rem;
     height: 3rem;
     align-items: center;
     display: flex;
-    border-width: 0.094rem;
-    border-style: solid;
-    border-color: rgb(95, 99, 104);
-    border-image: initial;
+    border: solid 0.094rem rgb(95, 99, 104);
     border-radius: 50rem;
     padding: 0.5rem 1rem;
     gap: 1rem;
 }
 
-.goxjub, .Gdd5U {
+.goxjub, .Gdd5U{
     width: 1.5rem;
     cursor: pointer;
 }
 
-input {
-    background-color: rgb(32, 33, 36);
+input{
+    background-color: rgba(32, 33, 36, 0);
     width: 29rem;
     height: 2.2rem;
     font-size: 0.875rem;
-    color: white;
-    border-width: initial;
-    border-style: none;
-    border-color: initial;
-    border-image: initial;
+    color: rgb(255, 255, 255);
+    border: none;
 }
 
-input:focus {
+.search-bar:hover{
+    background-color: rgb(48, 49, 52);
+    border: solid 0.063rem rgb(48, 49, 52);
+    box-shadow: 0 0.063rem 0.375rem 0 rgb(23, 23, 23);
+}
+
+input:focus{
     outline: none;
 }
 
-.btns {
+.btns{
     display: flex;
     gap: 0.75rem;
 }
 
-.btn1 {
+.btn1{
     background-color: rgb(48, 49, 52);
     color: rgb(232, 234, 237);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.875rem;
     padding: 0.55rem 1rem;
     border-radius: 0.25rem;
-    border-width: 0.063rem;
-    border-style: solid;
-    border-color: rgba(95, 99, 104, 0);
-    border-image: initial;
+    border: solid 0.063rem rgba(95, 99, 104, 0);
 }
 
-.btn1:hover {
+.btn1:hover{
     background-color: rgb(48, 49, 52);
-    border-width: 0.063rem;
-    border-style: solid;
-    border-color: rgb(95, 99, 104);
-    border-image: initial;
+    border: solid 0.063rem rgb(95, 99, 104);
 }
 
-.other-links {
+.other-links{
     display: flex;
     align-items: baseline;
     font-family: Arial, Helvetica, sans-serif;
     gap: 0.75rem;
 }
 
-.other-links p {
+.other-links p{
     color: rgb(189, 193, 198);
     font-size: 0.75rem;
 }
 
-.other-links a {
+.other-links a{
     color: rgb(138, 180, 248);
     font-size: 0.75rem;
     text-decoration: none;
 }
 
-.other-links a:hover {
+.other-links a:hover{
     text-decoration: underline;
 }
 
-footer {
+footer{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.875rem;
     background-color: rgb(23, 23, 23);
 }
 
-footer a {
+footer a{
     color: rgb(232, 234, 237);
     text-decoration: none;
 }
 
-footer a:hover {
+footer a:hover{
     text-decoration: underline;
 }
 
-.fut1 {
+.fut1{
     color: rgb(232, 234, 237);
     flex-wrap: wrap;
     display: flex;
     padding: 1rem 2rem;
 }
 
-.fut2 {
+.fut2{
     display: flex;
     flex-direction: row;
     border-top: 0.031rem solid rgb(60, 64, 67);
@@ -187,18 +179,18 @@ footer a:hover {
     justify-content: space-between;
 }
 
-.fut2left {
+.fut2left{
     display: flex;
     justify-content: flex-start;
     gap: 1.68rem;
     width: 30%;
 }
 
-.fut2cnt {
+.fut2cnt{
     justify-self: center;
 }
 
-.fut2right {
+.fut2right{
     display: flex;
     float: right;
     gap: 1.68rem;
@@ -207,7 +199,7 @@ footer a:hover {
 
 }
 
-.fut2cnt img {
+.fut2cnt img{
     height: 0.75rem;
     margin-right: 0.3rem;
 }
